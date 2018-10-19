@@ -177,12 +177,10 @@ def is_valid_exit(exits, user_input):
     True
     """
     pass
-
     for ch in exits:
         if ch == user_input:
             return True
-        else:
-            return False
+    return False
 #exits[ch] = Admins
 
 def menu(exits):
